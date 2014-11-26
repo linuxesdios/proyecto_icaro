@@ -14,5 +14,7 @@ _FBORPOR(PWRT_OFF & BORV27 & PBOR_OFF & MCLR_DIS)
 
 int main(void)
 {
+void Init_PIC();
+
 
 }

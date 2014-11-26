@@ -243,6 +243,16 @@ void Init_Pll(void)
     clockSwitch(NOSC_PLLOSC);
     Delay_Nop(1500);
 }
+void Init_PIC(void)
+{
+    Init_Hw();
+    Init_Pll();
+    DelayXmsT5(1);
+    Init_PWM();
+    Init_Bluetooh();
+    DelayXmsT5(1);
+
+}
 
 
 #endif	/* CONF_H */
