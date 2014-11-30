@@ -75,10 +75,10 @@ Program Memory  [Origin = 0x100, Length = 0x7f00]
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x100                0x9e            0xed  (237)
-.text                        0x19e               0x342           0x4e3  (1251)
-.dinit                       0x4e0                 0x2             0x3  (3)
+.text                        0x19e               0x34a           0x4ef  (1263)
+.dinit                       0x4e8                 0x2             0x3  (3)
 
-                     Total program memory used (bytes):          0x5d3  (1491) 3%
+                     Total program memory used (bytes):          0x5df  (1503) 3%
 
 
 Data Memory  [Origin = 0x800, Length = 0x800]
@@ -275,9 +275,9 @@ userdata
  *(.debug_abbrev)
  .debug_abbrev    0x000000        0x1fe build/default/production/main.o
 
-.debug_line       0x000000        0x60e
+.debug_line       0x000000        0x61e
  *(.debug_line)
- .debug_line      0x000000        0x60e build/default/production/main.o
+ .debug_line      0x000000        0x61e build/default/production/main.o
 
 .debug_frame      0x000000         0xd4
  *(.debug_frame)
@@ -1151,8 +1151,8 @@ __c30_signature
  __c30_signature
                   0x00027c          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
 
-.text             0x00019e        0x342
- .text            0x00019e        0x342 build/default/production/main.o
+.text             0x00019e        0x34a
+ .text            0x00019e        0x34a build/default/production/main.o
                   0x00019e                  _Delay_Nop
                   0x0001b2                  _Config_T1
                   0x0001ca                  _Delay1msT5
@@ -1166,5 +1166,5 @@ __c30_signature
                   0x0004c2                  _Init_PIC
                   0x0004d8                  _main
 
-.dinit            0x0004e0          0x2
- .dinit           0x0004e0          0x2 data_init
+.dinit            0x0004e8          0x2
+ .dinit           0x0004e8          0x2 data_init
