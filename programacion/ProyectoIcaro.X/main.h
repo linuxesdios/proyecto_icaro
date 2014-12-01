@@ -7,7 +7,11 @@ void StartTimer3(unsigned int _milisegundos);
 void Init_Pll(void);
 
 #include "define.h"
-#include "configuracion.h"
+#include "funciones.h"
+#include "Control.h"
+#include "Inter-Temp.h"
+
+
 
 #endif	/* MAIN_H */
 

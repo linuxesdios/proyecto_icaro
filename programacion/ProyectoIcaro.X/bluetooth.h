@@ -164,6 +164,5 @@ void plot4(int valor1, int valor2,int valor3,int valor4)
 }
 
 
-
 #endif	/* BLUETOOTH_H */
 
