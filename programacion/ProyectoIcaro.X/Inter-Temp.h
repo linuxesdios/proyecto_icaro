@@ -93,6 +93,7 @@ void StartTimer3(unsigned int _milisegundos) {
 void interrupcion _T1Interrupt(void)        // Se ejecuta cada 2msg
 {
     _T1IF = 0;
+    controladora();
    //pid
 }
 void interrupcion _T3Interrupt(void)

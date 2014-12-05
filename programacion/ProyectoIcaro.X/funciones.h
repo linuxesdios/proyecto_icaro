@@ -66,6 +66,7 @@ void Init_Inter(void){
 }
 
 void Init_PWM(void) {
+    //Esta configuración deja un ancho de banda de 0-4150
     OC3CON = 0;
     OC4CON = 0;
 

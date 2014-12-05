@@ -104,18 +104,19 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 int PosicionActual = 0;
+int errorAnt=0;
 int Tmuestreo = 0;
-int kp = 0;
+int kp = 50;
 int ki = 0;
-int kd = 0;
+int kd = 100;
 int Maximo = 0;
 int Minimo = 0;
 int MaximoI = 0;
 int MinimoI = 0;
-int Bias = 0;
+int Bias = 1300;
 
-int REFERENCIA;
-long V_MAXIMA;
+int REFERENCIA=13;
+long V_MAXIMA=4150;
 
 char str_blue[40];
 char str_aux[40];

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Sultan2_Rob14.X
+PROJECTNAME=ProyectoIcaro.X
 
 # Active Configuration
 DEFAULTCONF=default
