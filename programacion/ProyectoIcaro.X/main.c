@@ -30,10 +30,10 @@ int main(void)
     Init_Bluetooh();DelayXmsT5(1);
 
 //*********PROGRAMA************
-    while(BOTON_IZQ==1);
-    DelayXmsT5(50);
-    while(BOTON_IZQ==0);
-    DelayXmsT5(50);
+//    while(BOTON_IZQ==1);
+//    DelayXmsT5(50);
+//    while(BOTON_IZQ==0);
+//    DelayXmsT5(50);
     
     LED_ALL_ON
     DelayXmsT5(980);
