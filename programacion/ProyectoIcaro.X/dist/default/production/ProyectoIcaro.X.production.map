@@ -1,26 +1,26 @@
 Microchip Technology Inc, vv1.23 (A)
 
 Tool Name:
-  /opt/microchip/xc16/v1.23/bin/bin/../bin/elf-ld
+  c:\program files (x86)\microchip\xc16\v1.23\bin\bin\..\bin/elf-ld.exe
 
 Command:
   -p30F4013 \
   -o \
   dist/default/production/ProyectoIcaro.X.production.elf \
-  -L/opt/microchip/xc16/v1.23/bin/bin/.. \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../lib \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../lib/PIC24E \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../support/PIC24E/gld \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../lib/PIC24F \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../support/PIC24F/gld \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../lib/PIC24H \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../support/PIC24H/gld \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC30F \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../support/dsPIC30F/gld \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC33E \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../support/dsPIC33E/gld \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC33F \
-  -L/opt/microchip/xc16/v1.23/bin/bin/../../support/dsPIC33F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/.. \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/PIC24E \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/PIC24F \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/PIC24H \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC30F \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC33E \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC33F \
+  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/dsPIC33F/gld \
   build/default/production/main.o \
   --defsym=__MPLAB_BUILD=1 \
   -Tp30F4013.gld.00 \
@@ -43,15 +43,15 @@ Command:
   --library=c-elf \
   -end-group \
 
-Se incluyó el miembro del archivo debido al fichero (símbolo)
+Archive member included because of file (symbol)
 
-/opt/microchip/xc16/v1.23/bin/bin/../../lib/libpic30-elf.a(crt0_standard.o)
+c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
                               (__resetPRI)
-/opt/microchip/xc16/v1.23/bin/bin/../../lib/libpic30-elf.a(data_init_standard.o)
-                              /opt/microchip/xc16/v1.23/bin/bin/../../lib/libpic30-elf.a(crt0_standard.o) (__data_init_standard)
-/opt/microchip/xc16/v1.23/bin/bin/../../lib/libc-elf.a(itoa.eo)
+c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
+                              c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o) (__data_init_standard)
+c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(itoa.eo)
                               build/default/production/main.o (_itoa)
-/opt/microchip/xc16/v1.23/bin/bin/../../lib/libc-elf.a(strlen.eo)
+c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(strlen.eo)
                               build/default/production/main.o (_strlen)
 
 
@@ -79,20 +79,20 @@ Program Memory  [Origin = 0x100, Length = 0x7f00]
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x100               0x100           0x180  (384)
-.text                        0x200               0x74a           0xaef  (2799)
-.dinit                       0x94a                0x16            0x21  (33)
+.text                        0x200               0x86e           0xca5  (3237)
+.dinit                       0xa6e                0x16            0x21  (33)
 
-                     Total program memory used (bytes):          0xc90  (3216) 6%
+                     Total program memory used (bytes):          0xe46  (3654) 7%
 
 
 Data Memory  [Origin = 0x800, Length = 0x800]
 
 section                    address      alignment gaps    total length  (dec)
 -------                    -------      --------------    -------------------
-.nbss                        0x800                   0            0x94  (148)
-.ndata                       0x894                   0             0xc  (12)
+.nbss                        0x800                   0            0x98  (152)
+.ndata                       0x898                   0             0xc  (12)
 
-                        Total data memory used (bytes):           0xa0  (160) 7%
+                        Total data memory used (bytes):           0xa4  (164) 8%
 
 
 Dynamic Memory Usage
@@ -100,50 +100,54 @@ Dynamic Memory Usage
 region                     address                      maximum length  (dec)
 ------                     -------                      ---------------------
 heap                             0                                   0  (0)
-stack                        0x8a0                               0x760  (1888)
+stack                        0x8a4                               0x75c  (1884)
 
-                        Maximum dynamic memory (bytes):          0x760  (1888)
+                        Maximum dynamic memory (bytes):          0x75c  (1884)
 
 
 External Symbols in Data Memory (by address):
 
                     0x0800                  _PosicionActual
-                    0x0802                  _errorAnt
-                    0x0804                  _Tmuestreo
-                    0x0806                  _ki
-                    0x0808                  _Maximo
-                    0x080a                  _Minimo
-                    0x080c                  _MaximoI
-                    0x080e                  _MinimoI
-                    0x0810                  _str_blue
-                    0x0838                  _str_aux
-                    0x0860                  _DatoRecibido
-                    0x0892                  _IndiceBluetooth
-                    0x0894                  _kp
-                    0x0896                  _kd
-                    0x0898                  _Bias
-                    0x089a                  _REFERENCIA
-                    0x089c                  _V_MAXIMA
+                    0x0802                  _errorLeido
+                    0x0804                  _ei_acu
+                    0x0806                  _errorAnt
+                    0x0808                  _Tmuestreo
+                    0x080a                  _ki
+                    0x080c                  _Maximo
+                    0x080e                  _Minimo
+                    0x0810                  _MaximoI
+                    0x0812                  _MinimoI
+                    0x0814                  _str_blue
+                    0x083c                  _str_aux
+                    0x0864                  _DatoRecibido
+                    0x0896                  _IndiceBluetooth
+                    0x0898                  _kp
+                    0x089a                  _kd
+                    0x089c                  _Bias
+                    0x089e                  _REFERENCIA
+                    0x08a0                  _V_MAXIMA
 
 External Symbols in Data Memory (by name):
 
-                    0x0898                  _Bias
-                    0x0860                  _DatoRecibido
-                    0x0892                  _IndiceBluetooth
-                    0x0808                  _Maximo
-                    0x080c                  _MaximoI
-                    0x080a                  _Minimo
-                    0x080e                  _MinimoI
+                    0x089c                  _Bias
+                    0x0864                  _DatoRecibido
+                    0x0896                  _IndiceBluetooth
+                    0x080c                  _Maximo
+                    0x0810                  _MaximoI
+                    0x080e                  _Minimo
+                    0x0812                  _MinimoI
                     0x0800                  _PosicionActual
-                    0x089a                  _REFERENCIA
-                    0x0804                  _Tmuestreo
-                    0x089c                  _V_MAXIMA
-                    0x0802                  _errorAnt
-                    0x0896                  _kd
-                    0x0806                  _ki
-                    0x0894                  _kp
-                    0x0838                  _str_aux
-                    0x0810                  _str_blue
+                    0x089e                  _REFERENCIA
+                    0x0808                  _Tmuestreo
+                    0x08a0                  _V_MAXIMA
+                    0x0804                  _ei_acu
+                    0x0806                  _errorAnt
+                    0x0802                  _errorLeido
+                    0x089a                  _kd
+                    0x080a                  _ki
+                    0x0898                  _kp
+                    0x083c                  _str_aux
+                    0x0814                  _str_blue
 
 External Symbols in Program Memory (by address):
 
@@ -185,11 +189,11 @@ External Symbols in Program Memory (by address):
                   0x000786                  _Init_Pll
                   0x0007a4                  _PonMotores
                   0x000858                  _leer_iz_der
-                  0x000874                  _leer_der_iz
-                  0x000880                  _leer
-                  0x00089a                  _pid
-                  0x0008dc                  _controladora
-                  0x000900                  _main
+                  0x000900                  _leer_der_iz
+                  0x0009a8                  _leer
+                  0x0009c2                  _pid
+                  0x000a00                  _controladora
+                  0x000a24                  _main
                   0xf8000a                  __FGS.sec
 
 External Symbols in Program Memory (by name):
@@ -216,7 +220,7 @@ External Symbols in Program Memory (by name):
                   0x00013c                  __data_init_standard
                   0x00012c                  __psv_init
                   0x000100                  __resetPRI
-                  0x0008dc                  _controladora
+                  0x000a00                  _controladora
                   0x0002a4                  _enviar_Udatos
                   0x00026e                  _enviar_Udatos_NOCR
                   0x00025c                  _enviar_datos
@@ -227,11 +231,11 @@ External Symbols in Program Memory (by name):
                   0x0002b6                  _enviar_valor
                   0x0002e0                  _enviar_valor_NOCR
                   0x0001d6                  _itoa
-                  0x000880                  _leer
-                  0x000874                  _leer_der_iz
+                  0x0009a8                  _leer
+                  0x000900                  _leer_der_iz
                   0x000858                  _leer_iz_der
-                  0x000900                  _main
-                  0x00089a                  _pid
+                  0x000a24                  _main
+                  0x0009c2                  _pid
                   0x000396                  _plot1
                   0x0003b6                  _plot2
                   0x0003dc                  _plot3
@@ -239,9 +243,9 @@ External Symbols in Program Memory (by name):
                   0x0001f2                  _strlen
                   0x0001a2                  _utoa
 
-Configuración de la Memoria
+Memory Configuration
 
-Nombre           Origen             Longitud           Atributos
+Name             Origin             Length             Attributes
 data             0x000800           0x000800           a !xr
 reset            0x000000           0x000004  
 ivt              0x000004           0x00007c  
@@ -262,12 +266,12 @@ FGS              0xf8000a           0x000002
 FICD             0xf8000c           0x000002  
 *default*        0x000000           0xffffffff  
 
-Guión del enlazador y mapa de memoria
+Linker script and memory map
 
 LOAD build/default/production/main.o
                     0x0001                  __MPLAB_BUILD = 0x1
-LOAD /opt/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC30F/libp30F4013-elf.a
-LOAD /opt/microchip/xc16/v1.23/bin/bin/../../lib/libfx-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC30F\libp30F4013-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libfx-elf.a
                     0x8005c0                  __FUID0 = 0x8005c0
                     0x8005c2                  __FUID1 = 0x8005c2
                     0x8005c4                  __FUID2 = 0x8005c4
@@ -296,13 +300,13 @@ LOAD /opt/microchip/xc16/v1.23/bin/bin/../../lib/libfx-elf.a
 
 .text             0x000100        0x100
  *(.init)
- .init            0x000100         0x3c /opt/microchip/xc16/v1.23/bin/bin/../../lib/libpic30-elf.a(crt0_standard.o)
-                  0x000100                  __reset
+ .init            0x000100         0x3c c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
                   0x000100                  __resetPRI
+                  0x000100                  __reset
                   0x00012c                  __psv_init
- .init            0x00013c         0x5e /opt/microchip/xc16/v1.23/bin/bin/../../lib/libpic30-elf.a(data_init_standard.o)
-                  0x00013c                  __data_init
+ .init            0x00013c         0x5e c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
                   0x00013c                  __data_init_standard
+                  0x00013c                  __data_init
  *(.user_init)
  *(.handle)
  *(.isr*)
@@ -312,11 +316,11 @@ LOAD /opt/microchip/xc16/v1.23/bin/bin/../../lib/libfx-elf.a
  *(.libm)
  *(.libdsp)
  *(.lib*)
- .libc.utoa       0x0001a2         0x34 /opt/microchip/xc16/v1.23/bin/bin/../../lib/libc-elf.a(itoa.eo)
+ .libc.utoa       0x0001a2         0x34 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(itoa.eo)
                   0x0001a2                  _utoa
- .libc.itoa       0x0001d6         0x1c /opt/microchip/xc16/v1.23/bin/bin/../../lib/libc-elf.a(itoa.eo)
+ .libc.itoa       0x0001d6         0x1c c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(itoa.eo)
                   0x0001d6                  _itoa
- .libc.strlen     0x0001f2          0xe /opt/microchip/xc16/v1.23/bin/bin/../../lib/libc-elf.a(strlen.eo)
+ .libc.strlen     0x0001f2          0xe c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(strlen.eo)
                   0x0001f2                  _strlen
 
 usercode
@@ -370,26 +374,26 @@ userdata
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x2b36
+.debug_info       0x000000       0x2b6c
  *(.debug_info)
- .debug_info      0x000000       0x2b36 build/default/production/main.o
+ .debug_info      0x000000       0x2b6c build/default/production/main.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x2b9
  *(.debug_abbrev)
  .debug_abbrev    0x000000        0x2b9 build/default/production/main.o
 
-.debug_line       0x000000        0xcae
+.debug_line       0x000000        0xd78
  *(.debug_line)
- .debug_line      0x000000        0xcae build/default/production/main.o
+ .debug_line      0x000000        0xd78 build/default/production/main.o
 
 .debug_frame      0x000000        0x244
  *(.debug_frame)
  .debug_frame     0x000000        0x244 build/default/production/main.o
 
-.debug_str        0x000000        0x174
+.debug_str        0x000000        0x17f
  *(.debug_str)
- .debug_str       0x000000        0x174 build/default/production/main.o
+ .debug_str       0x000000        0x17f build/default/production/main.o
 
 .debug_loc
  *(.debug_loc)
@@ -398,10 +402,10 @@ userdata
  *(.debug_macinfo)
 
 .debug_pubnames
-                  0x000000        0x340
+                  0x000000        0x35a
  *(.debug_pubnames)
  .debug_pubnames
-                  0x000000        0x340 build/default/production/main.o
+                  0x000000        0x35a build/default/production/main.o
 
 .debug_ranges
  *(.debug_ranges)
@@ -1232,9 +1236,9 @@ userdata
                     0x0216                  UART2 = 0x216
                     0x0216                  _UART2 = 0x216
 START GROUP
-LOAD /opt/microchip/xc16/v1.23/bin/bin/../../lib/libpic30-elf.a
-LOAD /opt/microchip/xc16/v1.23/bin/bin/../../lib/libm-elf.a
-LOAD /opt/microchip/xc16/v1.23/bin/bin/../../lib/libc-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libm-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a
 END GROUP
 OUTPUT(dist/default/production/ProyectoIcaro.X.production.elf elf32-pic30)
 LOAD FGS
@@ -1252,39 +1256,41 @@ __c30_signature
  __c30_signature
                   0x0002e6          0x6 build/default/production/main.o
  __c30_signature
-                  0x0002ec          0x6 /opt/microchip/xc16/v1.23/bin/bin/../../lib/libpic30-elf.a(crt0_standard.o)
+                  0x0002ec          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
  __c30_signature
-                  0x0002f2          0x6 /opt/microchip/xc16/v1.23/bin/bin/../../lib/libpic30-elf.a(data_init_standard.o)
+                  0x0002f2          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
  __c30_signature
-                  0x0002f8          0x6 /opt/microchip/xc16/v1.23/bin/bin/../../lib/libc-elf.a(itoa.eo)
+                  0x0002f8          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(itoa.eo)
  __c30_signature
-                  0x0002fe          0x6 /opt/microchip/xc16/v1.23/bin/bin/../../lib/libc-elf.a(strlen.eo)
+                  0x0002fe          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(strlen.eo)
 
-.nbss               0x0800         0x94
- .nbss              0x0800         0x94 build/default/production/main.o
+.nbss               0x0800         0x98
+ .nbss              0x0800         0x98 build/default/production/main.o
                     0x0800                  _PosicionActual
-                    0x0802                  _errorAnt
-                    0x0804                  _Tmuestreo
-                    0x0806                  _ki
-                    0x0808                  _Maximo
-                    0x080a                  _Minimo
-                    0x080c                  _MaximoI
-                    0x080e                  _MinimoI
-                    0x0810                  _str_blue
-                    0x0838                  _str_aux
-                    0x0860                  _DatoRecibido
-                    0x0892                  _IndiceBluetooth
+                    0x0802                  _errorLeido
+                    0x0804                  _ei_acu
+                    0x0806                  _errorAnt
+                    0x0808                  _Tmuestreo
+                    0x080a                  _ki
+                    0x080c                  _Maximo
+                    0x080e                  _Minimo
+                    0x0810                  _MaximoI
+                    0x0812                  _MinimoI
+                    0x0814                  _str_blue
+                    0x083c                  _str_aux
+                    0x0864                  _DatoRecibido
+                    0x0896                  _IndiceBluetooth
 
-.ndata              0x0894          0xc
- .ndata             0x0894          0xc build/default/production/main.o
-                    0x0894                  _kp
-                    0x0896                  _kd
-                    0x0898                  _Bias
-                    0x089a                  _REFERENCIA
-                    0x089c                  _V_MAXIMA
+.ndata              0x0898          0xc
+ .ndata             0x0898          0xc build/default/production/main.o
+                    0x0898                  _kp
+                    0x089a                  _kd
+                    0x089c                  _Bias
+                    0x089e                  _REFERENCIA
+                    0x08a0                  _V_MAXIMA
 
-.text             0x000200        0x74a
- .text            0x000200        0x74a build/default/production/main.o
+.text             0x000200        0x86e
+ .text            0x000200        0x86e build/default/production/main.o
                   0x000200                  _EnviarCR
                   0x000226                  _enviar_datos_NOCR
                   0x00025c                  _enviar_datos
@@ -1315,11 +1321,11 @@ __c30_signature
                   0x000786                  _Init_Pll
                   0x0007a4                  _PonMotores
                   0x000858                  _leer_iz_der
-                  0x000874                  _leer_der_iz
-                  0x000880                  _leer
-                  0x00089a                  _pid
-                  0x0008dc                  _controladora
-                  0x000900                  _main
+                  0x000900                  _leer_der_iz
+                  0x0009a8                  _leer
+                  0x0009c2                  _pid
+                  0x000a00                  _controladora
+                  0x000a24                  _main
 
-.dinit            0x00094a         0x16
- .dinit           0x00094a         0x16 data_init
+.dinit            0x000a6e         0x16
+ .dinit           0x000a6e         0x16 data_init

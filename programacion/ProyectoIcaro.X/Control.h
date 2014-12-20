@@ -13,34 +13,34 @@
 #include "bluetooth.h"
 
 int leer_iz_der() {
-    if (S0 = 1)return 1;
-    if (S1 = 1)return 2;
-    if (S2 = 1)return 3;
-    if (S3 = 1)return 4;
-    if (S4 = 1)return 5;
-    if (S5 = 1)return 6;
-    if (S6 = 1)return 6;
-    if (S7 = 1)return 7;
-    if (S8 = 1)return 9;
-    if (S9 = 1)return 10;
-    if (S10 = 1)return 11;
-    if (S11 = 1)return 12;
+    if (S0 == 0)return 1;
+    if (S1 == 0)return 2;
+    if (S2 == 0)return 3;
+    if (S3 == 0)return 4;
+    if (S4 == 0)return 5;
+    if (S5 == 0)return 6;
+    if (S6 == 0)return 6;
+    if (S7 == 0)return 7;
+    if (S8 == 0)return 9;
+    if (S9 == 0)return 10;
+    if (S10 == 0)return 11;
+    if (S11 == 0)return 12;
     return (0);
 }
 
 int leer_der_iz() {
-    if (S11 = 1)return 12;
-    if (S10 = 1)return 11;
-    if (S9 = 1)return 10;
-    if (S8 = 1)return 9;
-    if (S7 = 1)return 8;
-    if (S6 = 1)return 7;
-    if (S5 = 1)return 6;
-    if (S4 = 1)return 5;
-    if (S3 = 1)return 4;
-    if (S2 = 1)return 3;
-    if (S1 = 1)return 2;
-    if (S0 = 1)return 1;
+    if (S11 == 0)return 12;
+    if (S10 == 0)return 11;
+    if (S9 == 0)return 10;
+    if (S8 == 0)return 9;
+    if (S7 == 0)return 8;
+    if (S6 == 0)return 7;
+    if (S5 == 0)return 6;
+    if (S4 == 0)return 5;
+    if (S3 == 0)return 4;
+    if (S2 == 0)return 3;
+    if (S1 == 0)return 2;
+    if (S0 == 0)return 1;
     return (0);
 }
 
@@ -81,7 +81,7 @@ int pid(int lectura) {
     signed int resultado = 0;
     if (lectura !=0)
         errorLeido = lectura;
-    ei_acu = ei_acu + errorLeido
+    ei_acu = ei_acu + errorLeido;
     resultado = errorLeido*kp; //Parte proporcional;
     resultado = resultado + (errorLeido - errorAnt) * kd; //Anadido parte derivativa
 
