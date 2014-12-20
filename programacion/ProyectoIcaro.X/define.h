@@ -104,6 +104,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 
 int PosicionActual = 0;
+signed int errorLeido ;
+int ei_acu = 0;
 int errorAnt=0;
 int Tmuestreo = 0;
 int kp = 50;
@@ -115,7 +117,7 @@ int MaximoI = 0;
 int MinimoI = 0;
 int Bias = 1300;
 
-int REFERENCIA=13;
+int REFERENCIA=13;//numero de sensores mas 1
 long V_MAXIMA=4150;
 
 char str_blue[40];
