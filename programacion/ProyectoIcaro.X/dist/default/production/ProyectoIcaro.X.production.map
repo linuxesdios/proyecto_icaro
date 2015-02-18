@@ -1,26 +1,26 @@
-Microchip Technology Inc, vv1.23 (A)
+Microchip Technology Inc, vv1.24 (0)
 
 Tool Name:
-  c:\program files (x86)\microchip\xc16\v1.23\bin\bin\..\bin/elf-ld.exe
+  c:\program files (x86)\microchip\xc16\v1.24\bin\bin\..\bin/elf-ld.exe
 
 Command:
   -p30F4013 \
   -o \
   dist/default/production/ProyectoIcaro.X.production.elf \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/.. \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/PIC24E \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/PIC24E/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/PIC24F \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/PIC24F/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/PIC24H \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/PIC24H/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC30F \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/dsPIC30F/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC33E \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/dsPIC33E/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC33F \
-  -Lc:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../support/dsPIC33F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/.. \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/PIC24E \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/PIC24F \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/PIC24H \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC30F \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC33E \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC33F \
+  -Lc:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../support/dsPIC33F/gld \
   build/default/production/main.o \
   --defsym=__MPLAB_BUILD=1 \
   -Tp30F4013.gld.00 \
@@ -45,18 +45,19 @@ Command:
 
 Archive member included because of file (symbol)
 
-c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
+c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
                               (__resetPRI)
-c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
-                              c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o) (__data_init_standard)
-c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(itoa.eo)
+c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
+                              c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o) (__data_init_standard)
+c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a(itoa.eo)
                               build/default/production/main.o (_itoa)
-c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(strlen.eo)
+c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a(strlen.eo)
                               build/default/production/main.o (_strlen)
 
 
 Selected CodeGuard Options:
   FGS:GWRP:GWRP_OFF
+  FGS:GCP:CODE_PROT_OFF
 
 CodeGuard FLASH Memory:
   boot    (none)
@@ -79,10 +80,11 @@ Program Memory  [Origin = 0x100, Length = 0x7f00]
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x100               0x100           0x180  (384)
-.text                        0x200               0x86e           0xca5  (3237)
-.dinit                       0xa6e                0x16            0x21  (33)
+.const                       0x200                 0x4             0x6  (6)
+.text                        0x204               0x958           0xe04  (3588)
+.dinit                       0xb5c                0x16            0x21  (33)
 
-                     Total program memory used (bytes):          0xe46  (3654) 7%
+                     Total program memory used (bytes):          0xfab  (4011) 8%
 
 
 Data Memory  [Origin = 0x800, Length = 0x800]
@@ -159,87 +161,89 @@ External Symbols in Program Memory (by address):
                   0x0001a2                  _utoa
                   0x0001d6                  _itoa
                   0x0001f2                  _strlen
-                  0x000200                  _EnviarCR
-                  0x000226                  _enviar_datos_NOCR
-                  0x00025c                  _enviar_datos
-                  0x00026e                  _enviar_Udatos_NOCR
-                  0x0002a4                  _enviar_Udatos
-                  0x0002b6                  _enviar_valor
-                  0x0002e0                  _enviar_valor_NOCR
-                  0x00030a                  _enviar_mensaje
-                  0x00031e                  _enviar_mensaje_NOCR
-                  0x000332                  _enviar_datos_int_NOCR
-                  0x000396                  _plot1
-                  0x0003b6                  _plot2
-                  0x0003dc                  _plot3
-                  0x000408                  _plot4
-                  0x00043a                  _Delay_Nop
-                  0x00044e                  _Config_PID_T1
-                  0x000466                  _Delay1msT5
-                  0x00048c                  _DelayXmsT5
-                  0x00049e                  _StartTimer3
-                  0x0004d2                  __T1Interrupt
-                  0x0004f2                  __T3Interrupt
+                  0x000204                  _EnviarCR
+                  0x00022a                  _enviar_datos_NOCR
+                  0x000260                  _enviar_datos
+                  0x000272                  _enviar_Udatos_NOCR
+                  0x0002a8                  _enviar_Udatos
+                  0x0002ba                  _enviar_valor
+                  0x0002e4                  _enviar_valor_NOCR
+                  0x00030e                  _enviar_mensaje
+                  0x000322                  _enviar_mensaje_NOCR
+                  0x000336                  _enviar_datos_int_NOCR
+                  0x00039a                  _plot1
+                  0x0003ba                  _plot2
+                  0x0003e0                  _plot3
+                  0x00040c                  _plot4
+                  0x00043e                  _Delay_Nop
+                  0x000452                  _Config_PID_T1
+                  0x00046a                  _Delay1msT5
+                  0x000490                  _DelayXmsT5
+                  0x0004a2                  _StartTimer3
+                  0x0004d6                  __T1Interrupt
+                  0x0004f6                  __T3Interrupt
                   0x0004fe                  __INT2Interrupt
-                  0x00050a                  _Init_Hw
-                  0x0005a2                  _Init_Inter
-                  0x0005d8                  _Init_PWM
-                  0x000644                  _Init_Bluetooh
-                  0x00068c                  _Init_Pll_AUX
-                  0x000786                  _Init_Pll
-                  0x0007a4                  _PonMotores
-                  0x000858                  _leer_iz_der
-                  0x000900                  _leer_der_iz
-                  0x0009a8                  _leer
-                  0x0009c2                  _pid
-                  0x000a00                  _controladora
-                  0x000a24                  _main
+                  0x000506                  _Init_Hw
+                  0x00059e                  _Init_Inter
+                  0x0005d4                  _Init_PWM
+                  0x000640                  _Init_Bluetooh
+                  0x000688                  _Init_Pll_AUX
+                  0x000782                  _Init_Pll
+                  0x0007a0                  _PonMotores
+                  0x000854                  _leer_iz_der
+                  0x0008fc                  _leer_der_iz
+                  0x0009a4                  _leer
+                  0x0009be                  _pid
+                  0x0009fc                  _controladora
+                  0x000a20                  _comprobacion_total
+                  0x000b3e                  _main
                   0xf8000a                  __FGS.sec
 
 External Symbols in Program Memory (by name):
 
-                  0x00044e                  _Config_PID_T1
-                  0x000466                  _Delay1msT5
-                  0x00048c                  _DelayXmsT5
-                  0x00043a                  _Delay_Nop
-                  0x000200                  _EnviarCR
-                  0x000644                  _Init_Bluetooh
-                  0x00050a                  _Init_Hw
-                  0x0005a2                  _Init_Inter
-                  0x0005d8                  _Init_PWM
-                  0x000786                  _Init_Pll
-                  0x00068c                  _Init_Pll_AUX
-                  0x0007a4                  _PonMotores
-                  0x00049e                  _StartTimer3
+                  0x000452                  _Config_PID_T1
+                  0x00046a                  _Delay1msT5
+                  0x000490                  _DelayXmsT5
+                  0x00043e                  _Delay_Nop
+                  0x000204                  _EnviarCR
+                  0x000640                  _Init_Bluetooh
+                  0x000506                  _Init_Hw
+                  0x00059e                  _Init_Inter
+                  0x0005d4                  _Init_PWM
+                  0x000782                  _Init_Pll
+                  0x000688                  _Init_Pll_AUX
+                  0x0007a0                  _PonMotores
+                  0x0004a2                  _StartTimer3
                   0x00019e                  __DefaultInterrupt
                   0xf8000a                  __FGS.sec
                   0x0004fe                  __INT2Interrupt
-                  0x0004d2                  __T1Interrupt
-                  0x0004f2                  __T3Interrupt
+                  0x0004d6                  __T1Interrupt
+                  0x0004f6                  __T3Interrupt
                   0x00013c                  __data_init
                   0x00013c                  __data_init_standard
                   0x00012c                  __psv_init
                   0x000100                  __resetPRI
-                  0x000a00                  _controladora
-                  0x0002a4                  _enviar_Udatos
-                  0x00026e                  _enviar_Udatos_NOCR
-                  0x00025c                  _enviar_datos
-                  0x000226                  _enviar_datos_NOCR
-                  0x000332                  _enviar_datos_int_NOCR
-                  0x00030a                  _enviar_mensaje
-                  0x00031e                  _enviar_mensaje_NOCR
-                  0x0002b6                  _enviar_valor
-                  0x0002e0                  _enviar_valor_NOCR
+                  0x000a20                  _comprobacion_total
+                  0x0009fc                  _controladora
+                  0x0002a8                  _enviar_Udatos
+                  0x000272                  _enviar_Udatos_NOCR
+                  0x000260                  _enviar_datos
+                  0x00022a                  _enviar_datos_NOCR
+                  0x000336                  _enviar_datos_int_NOCR
+                  0x00030e                  _enviar_mensaje
+                  0x000322                  _enviar_mensaje_NOCR
+                  0x0002ba                  _enviar_valor
+                  0x0002e4                  _enviar_valor_NOCR
                   0x0001d6                  _itoa
-                  0x0009a8                  _leer
-                  0x000900                  _leer_der_iz
-                  0x000858                  _leer_iz_der
-                  0x000a24                  _main
-                  0x0009c2                  _pid
-                  0x000396                  _plot1
-                  0x0003b6                  _plot2
-                  0x0003dc                  _plot3
-                  0x000408                  _plot4
+                  0x0009a4                  _leer
+                  0x0008fc                  _leer_der_iz
+                  0x000854                  _leer_iz_der
+                  0x000b3e                  _main
+                  0x0009be                  _pid
+                  0x00039a                  _plot1
+                  0x0003ba                  _plot2
+                  0x0003e0                  _plot3
+                  0x00040c                  _plot4
                   0x0001f2                  _strlen
                   0x0001a2                  _utoa
 
@@ -270,8 +274,8 @@ Linker script and memory map
 
 LOAD build/default/production/main.o
                     0x0001                  __MPLAB_BUILD = 0x1
-LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib/dsPIC30F\libp30F4013-elf.a
-LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libfx-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib/dsPIC30F\libp30F4013-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libfx-elf.a
                     0x8005c0                  __FUID0 = 0x8005c0
                     0x8005c2                  __FUID1 = 0x8005c2
                     0x8005c4                  __FUID2 = 0x8005c4
@@ -300,11 +304,11 @@ LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libfx-elf.a
 
 .text             0x000100        0x100
  *(.init)
- .init            0x000100         0x3c c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
+ .init            0x000100         0x3c c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
                   0x000100                  __resetPRI
                   0x000100                  __reset
                   0x00012c                  __psv_init
- .init            0x00013c         0x5e c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
+ .init            0x00013c         0x5e c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
                   0x00013c                  __data_init_standard
                   0x00013c                  __data_init
  *(.user_init)
@@ -316,11 +320,11 @@ LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libfx-elf.a
  *(.libm)
  *(.libdsp)
  *(.lib*)
- .libc.utoa       0x0001a2         0x34 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(itoa.eo)
+ .libc.utoa       0x0001a2         0x34 c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a(itoa.eo)
                   0x0001a2                  _utoa
- .libc.itoa       0x0001d6         0x1c c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(itoa.eo)
+ .libc.itoa       0x0001d6         0x1c c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a(itoa.eo)
                   0x0001d6                  _itoa
- .libc.strlen     0x0001f2          0xe c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(strlen.eo)
+ .libc.strlen     0x0001f2          0xe c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a(strlen.eo)
                   0x0001f2                  _strlen
 
 usercode
@@ -374,22 +378,22 @@ userdata
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x2b6c
+.debug_info       0x000000       0x2ba6
  *(.debug_info)
- .debug_info      0x000000       0x2b6c build/default/production/main.o
+ .debug_info      0x000000       0x2ba6 build/default/production/main.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x2b9
  *(.debug_abbrev)
  .debug_abbrev    0x000000        0x2b9 build/default/production/main.o
 
-.debug_line       0x000000        0xd78
+.debug_line       0x000000        0xe44
  *(.debug_line)
- .debug_line      0x000000        0xd78 build/default/production/main.o
+ .debug_line      0x000000        0xe44 build/default/production/main.o
 
-.debug_frame      0x000000        0x244
+.debug_frame      0x000000        0x254
  *(.debug_frame)
- .debug_frame     0x000000        0x244 build/default/production/main.o
+ .debug_frame     0x000000        0x254 build/default/production/main.o
 
 .debug_str        0x000000        0x17f
  *(.debug_str)
@@ -402,10 +406,10 @@ userdata
  *(.debug_macinfo)
 
 .debug_pubnames
-                  0x000000        0x35a
+                  0x000000        0x371
  *(.debug_pubnames)
  .debug_pubnames
-                  0x000000        0x35a build/default/production/main.o
+                  0x000000        0x371 build/default/production/main.o
 
 .debug_ranges
  *(.debug_ranges)
@@ -427,11 +431,11 @@ userdata
                   0x000014          0x4 LONG 0x19e DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000016          0x4 LONG 0x19e DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000018          0x4 LONG 0x19e DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x00001a          0x4 LONG 0x4d2 DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001a          0x4 LONG 0x4d6 DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00001c          0x4 LONG 0x19e DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00001e          0x4 LONG 0x19e DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000020          0x4 LONG 0x19e DEFINED (__T2Interrupt)?ABSOLUTE (__T2Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x000022          0x4 LONG 0x4f2 DEFINED (__T3Interrupt)?ABSOLUTE (__T3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000022          0x4 LONG 0x4f6 DEFINED (__T3Interrupt)?ABSOLUTE (__T3Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000024          0x4 LONG 0x19e DEFINED (__SPI1Interrupt)?ABSOLUTE (__SPI1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000026          0x4 LONG 0x19e DEFINED (__U1RXInterrupt)?ABSOLUTE (__U1RXInterrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000028          0x4 LONG 0x19e DEFINED (__U1TXInterrupt)?ABSOLUTE (__U1TXInterrupt):ABSOLUTE (__DefaultInterrupt)
@@ -491,11 +495,11 @@ userdata
                   0x000094          0x4 LONG 0x19e DEFINED (__AltINT0Interrupt)?ABSOLUTE (__AltINT0Interrupt):DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000096          0x4 LONG 0x19e DEFINED (__AltIC1Interrupt)?ABSOLUTE (__AltIC1Interrupt):DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x000098          0x4 LONG 0x19e DEFINED (__AltOC1Interrupt)?ABSOLUTE (__AltOC1Interrupt):DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x00009a          0x4 LONG 0x4d2 DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00009a          0x4 LONG 0x4d6 DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00009c          0x4 LONG 0x19e DEFINED (__AltIC2Interrupt)?ABSOLUTE (__AltIC2Interrupt):DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x00009e          0x4 LONG 0x19e DEFINED (__AltOC2Interrupt)?ABSOLUTE (__AltOC2Interrupt):DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x0000a0          0x4 LONG 0x19e DEFINED (__AltT2Interrupt)?ABSOLUTE (__AltT2Interrupt):DEFINED (__T2Interrupt)?ABSOLUTE (__T2Interrupt):ABSOLUTE (__DefaultInterrupt)
-                  0x0000a2          0x4 LONG 0x4f2 DEFINED (__AltT3Interrupt)?ABSOLUTE (__AltT3Interrupt):DEFINED (__T3Interrupt)?ABSOLUTE (__T3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a2          0x4 LONG 0x4f6 DEFINED (__AltT3Interrupt)?ABSOLUTE (__AltT3Interrupt):DEFINED (__T3Interrupt)?ABSOLUTE (__T3Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x0000a4          0x4 LONG 0x19e DEFINED (__AltSPI1Interrupt)?ABSOLUTE (__AltSPI1Interrupt):DEFINED (__SPI1Interrupt)?ABSOLUTE (__SPI1Interrupt):ABSOLUTE (__DefaultInterrupt)
                   0x0000a6          0x4 LONG 0x19e DEFINED (__AltU1RXInterrupt)?ABSOLUTE (__AltU1RXInterrupt):DEFINED (__U1RXInterrupt)?ABSOLUTE (__U1RXInterrupt):ABSOLUTE (__DefaultInterrupt)
                   0x0000a8          0x4 LONG 0x19e DEFINED (__AltU1TXInterrupt)?ABSOLUTE (__AltU1TXInterrupt):DEFINED (__U1TXInterrupt)?ABSOLUTE (__U1TXInterrupt):ABSOLUTE (__DefaultInterrupt)
@@ -1236,9 +1240,9 @@ userdata
                     0x0216                  UART2 = 0x216
                     0x0216                  _UART2 = 0x216
 START GROUP
-LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a
-LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libm-elf.a
-LOAD c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libm-elf.a
+LOAD c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a
 END GROUP
 OUTPUT(dist/default/production/ProyectoIcaro.X.production.elf elf32-pic30)
 LOAD FGS
@@ -1252,17 +1256,17 @@ LOAD data_init
                   0x000018        0x2cd build/default/production/main.o
 
 __c30_signature
-                  0x0002e6         0x1e
+                  0x0002e5         0x1e
  __c30_signature
-                  0x0002e6          0x6 build/default/production/main.o
+                  0x0002e5          0x6 build/default/production/main.o
  __c30_signature
-                  0x0002ec          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
+                  0x0002eb          0x6 c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
  __c30_signature
-                  0x0002f2          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
+                  0x0002f1          0x6 c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
  __c30_signature
-                  0x0002f8          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(itoa.eo)
+                  0x0002f7          0x6 c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a(itoa.eo)
  __c30_signature
-                  0x0002fe          0x6 c:/program files (x86)/microchip/xc16/v1.23/bin/bin/../../lib\libc-elf.a(strlen.eo)
+                  0x0002fd          0x6 c:/program files (x86)/microchip/xc16/v1.24/bin/bin/../../lib\libc-elf.a(strlen.eo)
 
 .nbss               0x0800         0x98
  .nbss              0x0800         0x98 build/default/production/main.o
@@ -1289,43 +1293,47 @@ __c30_signature
                     0x089e                  _REFERENCIA
                     0x08a0                  _V_MAXIMA
 
-.text             0x000200        0x86e
- .text            0x000200        0x86e build/default/production/main.o
-                  0x000200                  _EnviarCR
-                  0x000226                  _enviar_datos_NOCR
-                  0x00025c                  _enviar_datos
-                  0x00026e                  _enviar_Udatos_NOCR
-                  0x0002a4                  _enviar_Udatos
-                  0x0002b6                  _enviar_valor
-                  0x0002e0                  _enviar_valor_NOCR
-                  0x00030a                  _enviar_mensaje
-                  0x00031e                  _enviar_mensaje_NOCR
-                  0x000332                  _enviar_datos_int_NOCR
-                  0x000396                  _plot1
-                  0x0003b6                  _plot2
-                  0x0003dc                  _plot3
-                  0x000408                  _plot4
-                  0x00043a                  _Delay_Nop
-                  0x00044e                  _Config_PID_T1
-                  0x000466                  _Delay1msT5
-                  0x00048c                  _DelayXmsT5
-                  0x00049e                  _StartTimer3
-                  0x0004d2                  __T1Interrupt
-                  0x0004f2                  __T3Interrupt
-                  0x0004fe                  __INT2Interrupt
-                  0x00050a                  _Init_Hw
-                  0x0005a2                  _Init_Inter
-                  0x0005d8                  _Init_PWM
-                  0x000644                  _Init_Bluetooh
-                  0x00068c                  _Init_Pll_AUX
-                  0x000786                  _Init_Pll
-                  0x0007a4                  _PonMotores
-                  0x000858                  _leer_iz_der
-                  0x000900                  _leer_der_iz
-                  0x0009a8                  _leer
-                  0x0009c2                  _pid
-                  0x000a00                  _controladora
-                  0x000a24                  _main
+.const              0x8200          0x4 load address 0x000200  
+ .const             0x8200          0x4 build/default/production/main.o
 
-.dinit            0x000a6e         0x16
- .dinit           0x000a6e         0x16 data_init
+.text             0x000204        0x958
+ .text            0x000204        0x958 build/default/production/main.o
+                  0x000204                  _EnviarCR
+                  0x00022a                  _enviar_datos_NOCR
+                  0x000260                  _enviar_datos
+                  0x000272                  _enviar_Udatos_NOCR
+                  0x0002a8                  _enviar_Udatos
+                  0x0002ba                  _enviar_valor
+                  0x0002e4                  _enviar_valor_NOCR
+                  0x00030e                  _enviar_mensaje
+                  0x000322                  _enviar_mensaje_NOCR
+                  0x000336                  _enviar_datos_int_NOCR
+                  0x00039a                  _plot1
+                  0x0003ba                  _plot2
+                  0x0003e0                  _plot3
+                  0x00040c                  _plot4
+                  0x00043e                  _Delay_Nop
+                  0x000452                  _Config_PID_T1
+                  0x00046a                  _Delay1msT5
+                  0x000490                  _DelayXmsT5
+                  0x0004a2                  _StartTimer3
+                  0x0004d6                  __T1Interrupt
+                  0x0004f6                  __T3Interrupt
+                  0x0004fe                  __INT2Interrupt
+                  0x000506                  _Init_Hw
+                  0x00059e                  _Init_Inter
+                  0x0005d4                  _Init_PWM
+                  0x000640                  _Init_Bluetooh
+                  0x000688                  _Init_Pll_AUX
+                  0x000782                  _Init_Pll
+                  0x0007a0                  _PonMotores
+                  0x000854                  _leer_iz_der
+                  0x0008fc                  _leer_der_iz
+                  0x0009a4                  _leer
+                  0x0009be                  _pid
+                  0x0009fc                  _controladora
+                  0x000a20                  _comprobacion_total
+                  0x000b3e                  _main
+
+.dinit            0x000b5c         0x16
+ .dinit           0x000b5c         0x16 data_init

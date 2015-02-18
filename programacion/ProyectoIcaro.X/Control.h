@@ -94,5 +94,37 @@ void controladora() {
     int _controlador = pid(leer());
     PonMotores((Bias + _controlador), (Bias - _controlador));
 }
+void comprobacion_total(){
+    PonMotores(2000,-2000);
+    DelayXmsT5(500);
+    PonMotores(-2000,2000);
+    DelayXmsT5(500);
+    PonMotores(0,0);
+    while(BOTON_IZQ==1);
+    DelayXmsT5(50);
+    while(BOTON_IZQ==0);
+    DelayXmsT5(50);
+    LED_ALL_ON;
+    while(BOTON_IZQ==1);
+    DelayXmsT5(50);
+    while(BOTON_IZQ==0);
+    DelayXmsT5(50);
+    LED_ALL_OFF;
+    while (1) {
+    enviar_valor_NOCR("", S0);
+    enviar_valor_NOCR(",", S1);
+    enviar_valor_NOCR(",", S2);
+    enviar_valor_NOCR(",", S3);
+    enviar_valor_NOCR(",", S4);
+    enviar_valor_NOCR(",", S5);
+    enviar_valor_NOCR(",", S6);
+    enviar_valor_NOCR(",", S7);
+    enviar_valor_NOCR(",", S8);
+    enviar_valor_NOCR(",", S9);
+    enviar_valor_NOCR(",", S10);
+    enviar_valor(",", S11);
+    }
+
+}
 #endif	/* PID_H */
 

@@ -35,17 +35,15 @@ int main(void)
 //    while(BOTON_IZQ==0);
 //    DelayXmsT5(50);
     
-    LED_ALL_ON
+    
     DelayXmsT5(980);
     LED4 = 0;
 
 
-
-//    PonMotores(4100,4100);
-   START_PID;
+    comprobacion_total();
+    
+   //START_PID;
     while(1)
     {
-
-       
     }
 }

@@ -5,6 +5,9 @@ Funciones a crear, pero no se modifican a lo largo de la vida del proyecto.
 #ifndef FUNCIONES_H
 #define	FUNCIONES_H
 #include "define.h"
+
+#include "bluetooth.h"
+
 #include "Inter-Temp.h"
 void Init_Hw(void);
 void Init_Inter(void);
